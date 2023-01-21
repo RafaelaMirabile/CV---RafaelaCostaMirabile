@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+a { 
+    color: inherit; 
+} 
+.aboutMe > div:nth-child(3)> p:nth-child(1){
+font-weight: 700;
+margin: 10px 0px 8px 0px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 40px 14px 40px;
+    align-items: center;
+    width: 100%;
+}
+
+header > div:nth-child(2){
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+header > div:nth-child(1) {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 70px;
+    width: 100%;
+}
+header > div:nth-child(1) > p:nth-child(2){
+    font-weight: 400;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.infoBox{
+    width: 100%;
+    height: 100%;
+    padding:10px 20px 20px 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 16px;
+}
+.infoBox > div {
+    margin-bottom: 20px;
+}
+
+.experiencesBox{
+    height: 100%;
+    width: 100%;
+    padding:10px 20px 20px 40px;
+}
+strong{
+    font-family: 'Playfair';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 28px;
+}
+.topic{
+    display: flex;
+    align-items: center;
+    margin: 0 0 16px 2px;
+}
+.topic > ion-icon{
+    margin-right: 20px;
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+}
+.experience{
+    display: flex;
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 16px;
+    padding-bottom: 14px;
+    border-bottom: 0.1px solid rgb(204, 198, 198);
+}
+.experience >div:nth-child(2)>div:nth-child(1){
+font-weight: 600;
+}
+.experiencesBox > div:nth-child(5){
+    border: none;
+}
+.experiencesBox > div:nth-child(8){
+    border: none;
+}
+.experience >div:nth-child(2)>div:nth-child(3){
+    margin-top: 8px;
+}
+
+.experienceSubtitle{
+    margin-bottom: 16px;
+}
+.description >li {
+    margin-bottom: 8px;
+}
+.period{
+margin: 0 9px 0 2px;
+}
+.period > p {
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.aboutMe{
+    width: 100%;
+}
+
+.aboutMe > .description{
+    margin-top: 16px;
+}
+.aboutMe > .description > p{
+    margin-top: 6px;
+}
+.contac{
+    width: 100%;
+}
+.contac > div:nth-child(2) > div{
+    display: inline-block;
+    margin-top: 8px;
+    width: 100%;
+}
+.description > div{
+    font-style: italic;
+    margin-bottom: 4px;
+}
+.tools{
+    margin-top: 16px;;
+}
+.tools > div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 14px;
+}
+.idiomas > strong{
+    margin-top: 6px;
+}
+.idiomas > li{
+    margin-bottom: 6px;
+    font-weight: 600;
+    font-weight: 900;
+}
+.language{
+    margin-top: 6px;
+}
+.language > li{
+    margin-bottom: 6px;
+    font-weight: 600;
+    font-weight: 900;
+}
+.language > .description{
+    margin-bottom: 16px;
+}
+.repositorio > div{
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+.repositorio > .description > p{
+    font-style: italic;
+}
+.languageLevel > i{
+    font-style: italic;
+}
+.languageLevel{
+    margin-bottom: 6px;
+}
